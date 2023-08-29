@@ -8,6 +8,17 @@
         <title>Aplicação</title>
     </head>
     <body>
+        <!-- comentário -->
         <h1>Olá Mundo!!!</h1>
+        <h2>ol&aacute; mundo</h2>&nbsp;
+        <h3>willll</h3>
+        <h4>will</h4>
+
+        <!-- scriptlet-->
+
+        <% 
+            String nome = request.getParameter("nome");
+            out.print("olá" + nome); 
+        %>
     </body>
 </html>
